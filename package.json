@@ -4,15 +4,12 @@
   "description": "fiori on cloud",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
+    "start": "ui5 serve --open index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Raju",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.1"
-  },
   "devDependencies": {
-    "nodemon": "^2.0.18"
+    "@ui5/cli": "^2.14.9"
   }
 }
